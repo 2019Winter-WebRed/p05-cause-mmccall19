@@ -1,0 +1,81 @@
+/*
+*Mackenzie
+*19 May 2019
+*My Cause
+*/
+
+/* The universal selector */
+
+* {
+    margin: 0;
+    padding: 0; 
+
+}
+
+/* Boddy attributes here */
+
+/* this section gives the body a background color, a font, a width and margin */
+body {
+    background-color: lightgray;
+    width: 85%; margin: auto;
+    font-family: monospace
+}
+
+/* this section gives the header a font, centers the text, and gives it a border underneath */
+header { 
+    font-family: monospace;
+    text-align: center;
+    border-bottom: 4px solid red;   
+}
+
+/* this section gives the entire main section a border with padding and a margin and adds a border at the bottom of the section */
+main {
+    border: 2px;
+    padding: 20px 60px 20px 20px;
+    margin: 20px;
+    border-bottom: 4px solid red;
+}
+
+/* this gives the first picture a size and floats it left while adding padding as well */
+#pic1 {
+    width: 400px; height: 300px;
+    float: left; padding: 10px;
+}
+
+/* this gives all the h3's a sized margin with padding */
+h3 {
+    margin: 5px; padding: 10px; 
+}
+
+/* this ensures that the ordered list is inline with the rest of the text */
+ol, li {
+    list-style-position: inside;
+}
+
+/* next 5 give the rest of the images a size */
+#pic2 {
+    width: 150px; height: 200px;
+}
+
+#pic3 {
+    width: 150px; height: 200px;
+}
+
+#pic4 {
+    width: 150px; height: 200px;
+}
+
+#pic5 {
+    width: 180px; height: 200px;
+}
+
+#pic6 {
+    width: 160px; height: 200px;
+}
+
+/* this gives the footer a font with padding */
+footer {
+    font-family: monospace;
+    padding: 20px 40px 40px 40px;
+    
+}
